@@ -15,7 +15,7 @@ public class main_screen extends AppCompatActivity {
     }
 
     protected void startWork(View v) {
-        Intent intent = new Intent(this,working.class);
+        Intent intent = new Intent(this, working.class);
         Bundle bundle = new Bundle();
         int workTime = Integer.parseInt(((TextView) findViewById(R.id.workMinutes)).getText().toString());
         int breakTime = Integer.parseInt(((TextView) findViewById(R.id.breakMinutes)).getText().toString());
